@@ -1,0 +1,13 @@
+$Module simple 3 "Simple Golang VMOD Example"
+
+$Function STRING hello(STRING name)
+Description: Returns a greeting message with the provided name.
+Example: simple.hello("World")
+
+$Function INT add(INT a, INT b)
+Description: Adds two integers and returns the result.
+Example: simple.add(5, 3) 
+
+$Function VOID write(HEADER h)
+Description: Writes a header to file.
+Example: simple.write(req.http.X-Greeting)

@@ -1,0 +1,6 @@
+$Module etcd 3 "etcd VMOD"
+
+$Object client(STRANDS endpoints, INT timeout_secs = 5)
+
+$Method INT .set(STRING key, STRING value)
+$Method STRING .get(STRING key) 

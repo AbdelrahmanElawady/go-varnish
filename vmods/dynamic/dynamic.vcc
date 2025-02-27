@@ -1,0 +1,9 @@
+$Module dynamic 3 "Simple Golang VMOD Example"
+
+$Object director()
+Description: Creates a dynamic director object.
+Example: new mydirector = dynamic.director();
+
+$Method BACKEND .backend(STRING, INT)
+Description: Returns a backend based on the provided string.
+Example: set req.backend_hint = dynamic.backend(req.http.host, 80);

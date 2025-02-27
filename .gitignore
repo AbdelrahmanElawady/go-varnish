@@ -1,0 +1,15 @@
+# Generated files
+vcc_if.c
+vcc_if.h
+*.rst
+
+# Build artifacts
+*.a
+*.so
+*.o
+
+.vscode/
+
+*.h
+
+!config.h
